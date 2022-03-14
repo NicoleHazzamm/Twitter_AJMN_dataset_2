@@ -12,7 +12,9 @@ view: user {
   dimension: image_url {
     type: string
     sql: ${TABLE}.ImageURL ;;
+    html: <img src="{{value}}"> ;;
   }
+
 
   dimension: location {
     type: string
